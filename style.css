@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    background: rgb(135, 135, 225);
+    color: yellowgreen;
+}
+
+header{
+    text-align: center;
+    font-size: 3em;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+}
+
+nav a{
+    color: yellowgreen;
+    text-decoration: none;
+}
+
+nav button{
+    background-color: rgb(22, 105, 105);
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+nav a:hover{
+    
+    color: rgb(129, 159, 68);
+}
+
+nav button:hover{
+    cursor: pointer;
+    background-color: rgb(23, 65, 65);
+}
+
+@media (max-width:768px){
+    nav{
+        display: flex;
+        flex-direction:column;
+    }
+    section{
+        padding: 20px;
+    }
+}
