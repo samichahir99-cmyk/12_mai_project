@@ -1,8 +1,16 @@
-console.log("JavaScript fonctionne!");
+const nom=document.getElementById('nom')
+const email=document.getElementById('email')
+const password=document.getElementById('password')
 
-const btnMessage = document.getElementById("btnMessage");
-const message = document.getElementById("message");
+const button=document.getElementById('btn')
 
-btnMessage.addEventListener("click",function(){
-    message.textContent = "Bravo, tu as clique sur le button !;"
+button.addEventListener('click', function(){
+    if (nom.value === '' || email.value === '' || password.value === '')
+    {
+        alert('Veuillez remplir tous les champs');
+    }
+    else{
+        alert('inscription reussie !' + "nom:" + nom.value + "email:" + email.value + "password:" + password.value )
+    }
 });
+
