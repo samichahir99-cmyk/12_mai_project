@@ -1,4 +1,4 @@
-const nom=document.getElementById('nom')
+const nom=document.getElementById('name')
 const email=document.getElementById('email')
 const password=document.getElementById('password')
 
