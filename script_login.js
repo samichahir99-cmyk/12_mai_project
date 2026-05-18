@@ -1,3 +1,7 @@
+const email=document.getElementById('email');
+const password=document.getElementById('password');
+const button2=document.getElementById('btn2');
+
 button2.addEventListener('click', function() {
     const mail=email.value;
     const pass=password.value;
